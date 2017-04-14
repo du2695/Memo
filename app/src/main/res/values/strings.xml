@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="new_activity_title">新規</string>
+    <string name="show_activity_title">詳細</string>
+    <string name="edit_activity_title">編集</string>
+    <string name="edit_activity_finish">完了</string>
+    <string name="action_add">追加</string>
+    <string name="action_edit">編集</string>
+    <string name="action_delete">削除</string>
+    <string name="hint_title">タイトル</string>
+    <string name="hint_content">内容</string>
+    <string name="text">Memo is not found</string>
+    <string name="msg_destruction">メモを破棄しました。</string>
+    <string name="msg_del">削除しました。</string>
+    <string name="context_delete">削除</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingTop="@dimen/padding"
+    android:background="#FFD5D5D5"
+    tools:context="com.example.memo.MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFE4FFFF"
+        android:divider="#FFD5D5D5"
+        android:dividerHeight="10dp"
+        android:headerDividersEnabled="false" />
+
+    <TextView
+        android:id="@+id/empty_list"
+        android:text="@string/text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>
